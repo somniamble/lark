@@ -14,7 +14,7 @@ _"Every lisper writes their own html DSL, it's practically a rite of passage"_
     
 # Non-goals of Lark
 
-- Be "fully featured", "suitable for use in production", etc
+Be "fully featured", "suitable for use in production", etc
 
     
 # Other
