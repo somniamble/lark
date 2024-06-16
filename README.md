@@ -11,7 +11,6 @@ Let's just call it Lark for now, it's pretty.
 > "Every lisper writes their own html DSL, it's practically a rite of passage"_
 > - somebody on some webforum once
     
-I guess this is a little more than that as it will include some kind of   
 It looks like markdown but it's not full markdown, and soon it might have some decidedly not-markdown stuff
     
 # Goals of Lark
