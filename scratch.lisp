@@ -17,6 +17,7 @@
 (defun parse-document (document-string)
   "Parses a string as a Lark document"
   (let* ((lines (split-sequence:split-sequence #\NEWLINE document-string)))
+    (parse 'lark-parser (make-block-reader ( `
   ; What do we need to do here?
   ; Split the doc into lines.
   ; Join lines together into block elements
@@ -79,11 +80,10 @@
   (.or 
    (.is :header1)
    (.is :header2)
-   (.is :thematic-break)
    'list-parser
+   'blockquote-parser
    'paragraph-parser
    'codefence-parser 
-   'empty-line-parser
   ))
 
 
